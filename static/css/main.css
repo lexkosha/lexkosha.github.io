@@ -1,0 +1,153 @@
+:root {
+  --ms-dark: #473527;
+}
+html,
+head,
+body,
+main {
+  background-color: #f3e0c3;
+}
+body {
+  background: -webkit-linear-gradient(135deg, rgb(244, 211, 161) 25%, rgb(238, 213, 175) 45%, rgb(243, 224, 195) 56%);
+  background: -moz-linear-gradient(135deg, rgb(244, 211, 161) 25%, rgb(238, 213, 175) 45%, rgb(243, 224, 195) 56%);
+  background: linear-gradient(135deg, rgb(244, 211, 161) 25%, rgb(238, 213, 175) 45%, rgb(243, 224, 195) 56%);
+}
+
+main {
+  background: -webkit-linear-gradient(135deg, rgb(244, 211, 161) 25%, rgb(238, 213, 175) 45%, rgb(243, 224, 195) 56%);
+  background: -moz-linear-gradient(135deg, rgb(244, 211, 161) 25%, rgb(238, 213, 175) 45%, rgb(243, 224, 195) 56%);
+  /*background: linear-gradient(135deg, rgb(244, 211, 161) 25%, rgb(238, 213, 175) 45%, rgb(243, 224, 195) 56%);*/
+  background: linear-gradient(135deg, rgb(244 211 161) 15%, rgb(238, 213, 175) 35%, rgb(243, 224, 195) 56%);
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 .fonts-main {
+  font-family: "Oldbastards";
+  color: var(--ms-dark);
+  margin-top: 1rem !important;
+}
+
+/*LVHA-порядком: :link — :visited — :hover — :active*/
+a.fonts-main {
+  text-decoration: none;
+  color: #473527;
+}
+a.fonts-main:link {
+  text-decoration: none;
+  color: #4d4343;
+}
+a.fonts-main:visited {
+  color: #957545;
+}
+a.fonts-main:hover {
+  color: #f3e0c3;
+}
+
+a.fonts-main:active {
+  color: #f3e0c3;
+  background: linear-gradient(143deg, #47352763, rgb(0 0 0 / 0%));
+}
+
+a.url-autor {
+  text-decoration: none;
+  color: #473527;
+}
+
+.line_header {
+  background-color: var(--ms-dark);
+  height: 6px;
+  margin-top: 55px;
+}
+.line-mini {
+  background-color: var(--ms-dark);
+  height: 2px;
+  margin-top: 4px;
+}
+.line-boot {
+  background-color: var(--ms-dark);
+  height: 6px;
+  margin-top: 4px;
+}
+.line {
+  border-bottom: 1px solid black;
+  padding-bottom: 1px; /* Регулируйте это значение для расстояния от текста до линии */
+}
+.list-group-item-main {
+  position: relative;
+  padding: 0.5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+
+  /*background: linear-gradient(90deg, #47352763, rgb(0 0 0 / 0%));*/
+}
+.list-group-item-main:hover {
+  position: relative;
+  padding: 0.5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background: linear-gradient(90deg, #47352763, rgb(0 0 0 / 0%));
+  border-radius: 0.3rem !important;
+}
+.list-group-item-main:active {
+  position: relative;
+  padding: 0.5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background: linear-gradient(354deg, #47352763, rgb(0 0 0 / 0%));
+  border-radius: 0.3rem !important;
+}
+
+.menu-border-r {
+  border: 3px solid #473527 !important;
+}
+
+.rounded-pill {
+  border-radius: 0.25rem !important;
+}
+.bg-primary {
+  background-color: #473527 !important;
+}
+
+.color-urls {
+  text-decoration: none;
+  color: #473527;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.color-urls:link {
+  color: #4d4343;
+}
+
+.color-urls:visited {
+  color: #957545;
+}
+
+.color-urls:hover {
+  color: #f0be71;
+  text-shadow: 2px 1px 2px #212529;
+}
+
+.color-urls:active {
+  color: #f3e0c3;
+  background: linear-gradient(143deg, #473527, rgb(0 0 0 / 0%));
+}
+body > main > div.container > div > div.col-auto{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+body > main > div.row > div.col-md-4 > div.col-12.pb-3 > div > ul {
+  list-style-type: none;
+}

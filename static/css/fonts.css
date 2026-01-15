@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "Oldbastards"; /* Название, которое вы будете использовать в проекте */
+  src: url("fonts/oldbastards.ttf") format("ttf"),
+    url("fonts/oldbastards.woff") format("woff");
+  font-weight: normal;
+}
